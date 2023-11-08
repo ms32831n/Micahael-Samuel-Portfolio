@@ -1,0 +1,216 @@
+/*
+Author: Micahael Samuel
+Date: 10/18/23
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body,
+header,
+nav,
+main,
+footer,
+h1,
+div,
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* style rules for body and images */
+body {
+  background-color: #e9c46a;
+}
+
+/* style rule for header */
+
+h1 {
+  display: block;
+  margin-top: 0.5em;
+  text-align: left;
+  color: #bc6c25;
+  font-weight: bold;
+  font-family: Verdana, Arial, sans-serif;
+  margin-left: 0.8em;
+}
+
+h2 {
+  display: block;
+  text-align: center;
+  color: #bc6c25;
+  margin-top: 1.25em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  font-weight: bold;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1em;
+}
+
+h3 {
+  display: block;
+  text-align: center;
+  color: #bc6c25;
+  margin-top: 1.25em;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  font-weight: bold;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1em;
+}
+
+h4 {
+  font-size: 1.25em;
+  font-family: Verdana, Arial, sans-serif;
+  font-weight: bold;
+  color: #bc6c25;
+  margin-left: 1.5em;
+}
+/* style rule for navigation area */
+nav {
+  margin-bottom: 2em;
+  margin-top: 1em;
+  background-color: #000;
+}
+
+nav li {
+  display: inline-block;
+  text-align: center;
+}
+nav li a {
+  font-size: 1.5em;
+  font-family: Verdana, Arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #bc6c25;
+  margin-right: 7em;
+}
+
+#face img {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 1.5em;
+  width: 35%;
+  float: left;
+  border: 4px solid #000;
+}
+
+#BView img {
+  margin-top: 8.5%;
+  margin-bottom: 1%;
+  margin-right: 4em;
+  width: 52%;
+  float: right;
+  border: 4px solid #000;
+}
+
+/* style rules for main content */
+#primary {
+  float: right;
+  margin-left: 1.25em;
+  margin-top: 2em;
+  margin-right: 0.5em;
+  font-size: 1.25em;
+  text-align: center;
+  width: 57%;
+  color: #bc6c25;
+  font-weight: bold;
+}
+
+#Items p {
+  float: right;
+  margin-left: 1.25em;
+  margin-top: 2em;
+  margin-right: 0.5em;
+  font-size: 1.25em;
+  text-align: center;
+  width: 57%;
+  color: #bc6c25;
+  font-weight: bold;
+}
+
+#Items ul {
+  list-style-position: inside;
+  text-align: center;
+}
+
+#Items ul li {
+  float: right;
+  margin-left: 1.25em;
+  margin-right: 0.5em;
+  font-size: 1.25em;
+  text-align: center;
+  width: 60%;
+  color: #bc6c25;
+}
+
+#maintext {
+  margin-bottom: 2em;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+#BackInfo {
+  display: inline-block;
+}
+#BackInfo p {
+  color: #bc6c25;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  text-align: center;
+}
+
+#BackInfo img {
+  width: 15%;
+  height: 5%;
+  margin-right: 1em;
+}
+
+#Education {
+  display: inline-block;
+}
+
+#Education p {
+  color: #bc6c25;
+  margin-right: 0.6em;
+  margin-left: 0.6em;
+  text-align: center;
+}
+
+#HI {
+  display: inline-block;
+}
+#HI p {
+  color: #bc6c25;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  text-align: center;
+}
+
+#imgs img {
+  display: inline-block;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  width: 31.25%;
+  border: 4px solid #000;
+}
+
+#freet p {
+  font-size: 1.25em;
+  font-family: Verdana, Arial, sans-serif;
+  font-weight: bold;
+  color: #bc6c25;
+  margin-left: 1.5em;
+  width: 80%;
+}
+.map {
+  border: 8px solid #000;
+  margin-left: 1.5em;
+}
+
+footer {
+  margin-top: 1em;
+  clear: both;
+  text-align: center;
+  border-top: 1px dashed black;
+}
+/* style rules for footer content */
